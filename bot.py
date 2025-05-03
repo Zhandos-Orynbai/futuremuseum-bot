@@ -6,7 +6,7 @@ from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, Cal
 NAME, RATING, COMMENT, ADMIN_PASSWORD = range(4)
 
 # Подключение к БД
-conn = sqlite3.connect("otzyvy.db", check_same_thread=False)
+conn = sqlite3.connect("data.db", check_same_thread=False)
 cursor = conn.cursor()
 
 cursor.execute('''
