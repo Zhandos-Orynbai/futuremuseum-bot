@@ -115,7 +115,7 @@ async def cancel(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 # Запуск
 if __name__ == "__main__":
-    TOKEN = "7923751264:AAGHI_EYJxqcGXP7N2j1QovFgk7LjaMEQg0"
+    TOKEN = "8052836652:AAF1reVL92MM5QMH_DrVEk-5p-6EA7KN0hg"
     app = ApplicationBuilder().token(TOKEN).build()
 
     conv_handler = ConversationHandler(
