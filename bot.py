@@ -60,7 +60,7 @@ async def get_name(update: Update, context: ContextTypes.DEFAULT_TYPE):
     name = update.message.text.strip()
     context.user_data['name'] = name
 
-    if name.lower() == "жандос_админ":
+    if name.lower() == "админ":
         await update.message.reply_text("Введите пароль:")
         return ADMIN_PASSWORD
 
